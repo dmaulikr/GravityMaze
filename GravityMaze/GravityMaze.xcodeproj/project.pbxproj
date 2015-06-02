@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAF6859F1B1E0055004811B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF6859E1B1E0055004811B7 /* main.m */; };
+		BAF685A21B1E0055004811B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF685A11B1E0055004811B7 /* AppDelegate.m */; };
+		BAF685A51B1E0055004811B7 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF685A41B1E0055004811B7 /* GameScene.m */; };
+		BAF685A71B1E0055004811B7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BAF685A61B1E0055004811B7 /* GameScene.sks */; };
+		BAF685AA1B1E0055004811B7 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF685A91B1E0055004811B7 /* GameViewController.m */; };
+		BAF685AD1B1E0055004811B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF685AB1B1E0055004811B7 /* Main.storyboard */; };
+		BAF685AF1B1E0055004811B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAF685AE1B1E0055004811B7 /* Images.xcassets */; };
+		BAF685B21B1E0055004811B7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAF685B01B1E0055004811B7 /* LaunchScreen.xib */; };
+		BAF685BE1B1E0055004811B7 /* GravityMazeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF685BD1B1E0055004811B7 /* GravityMazeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAF685B81B1E0055004811B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAF685911B1E0055004811B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAF685981B1E0055004811B7;
+			remoteInfo = GravityMaze;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAF685991B1E0055004811B7 /* GravityMaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GravityMaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAF6859D1B1E0055004811B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAF6859E1B1E0055004811B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BAF685A01B1E0055004811B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BAF685A11B1E0055004811B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BAF685A31B1E0055004811B7 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		BAF685A41B1E0055004811B7 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		BAF685A61B1E0055004811B7 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		BAF685A81B1E0055004811B7 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		BAF685A91B1E0055004811B7 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		BAF685AC1B1E0055004811B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAF685AE1B1E0055004811B7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BAF685B11B1E0055004811B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BAF685B71B1E0055004811B7 /* GravityMazeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GravityMazeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAF685BC1B1E0055004811B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAF685BD1B1E0055004811B7 /* GravityMazeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GravityMazeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAF685961B1E0055004811B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF685B41B1E0055004811B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAF685901B1E0055004811B7 = {
+			isa = PBXGroup;
+			children = (
+				BAF6859B1B1E0055004811B7 /* GravityMaze */,
+				BAF685BA1B1E0055004811B7 /* GravityMazeTests */,
+				BAF6859A1B1E0055004811B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAF6859A1B1E0055004811B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAF685991B1E0055004811B7 /* GravityMaze.app */,
+				BAF685B71B1E0055004811B7 /* GravityMazeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAF6859B1B1E0055004811B7 /* GravityMaze */ = {
+			isa = PBXGroup;
+			children = (
+				BAF685A01B1E0055004811B7 /* AppDelegate.h */,
+				BAF685A11B1E0055004811B7 /* AppDelegate.m */,
+				BAF685A31B1E0055004811B7 /* GameScene.h */,
+				BAF685A41B1E0055004811B7 /* GameScene.m */,
+				BAF685A61B1E0055004811B7 /* GameScene.sks */,
+				BAF685A81B1E0055004811B7 /* GameViewController.h */,
+				BAF685A91B1E0055004811B7 /* GameViewController.m */,
+				BAF685AB1B1E0055004811B7 /* Main.storyboard */,
+				BAF685AE1B1E0055004811B7 /* Images.xcassets */,
+				BAF685B01B1E0055004811B7 /* LaunchScreen.xib */,
+				BAF6859C1B1E0055004811B7 /* Supporting Files */,
+			);
+			path = GravityMaze;
+			sourceTree = "<group>";
+		};
+		BAF6859C1B1E0055004811B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAF6859D1B1E0055004811B7 /* Info.plist */,
+				BAF6859E1B1E0055004811B7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BAF685BA1B1E0055004811B7 /* GravityMazeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAF685BD1B1E0055004811B7 /* GravityMazeTests.m */,
+				BAF685BB1B1E0055004811B7 /* Supporting Files */,
+			);
+			path = GravityMazeTests;
+			sourceTree = "<group>";
+		};
+		BAF685BB1B1E0055004811B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAF685BC1B1E0055004811B7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAF685981B1E0055004811B7 /* GravityMaze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAF685C11B1E0055004811B7 /* Build configuration list for PBXNativeTarget "GravityMaze" */;
+			buildPhases = (
+				BAF685951B1E0055004811B7 /* Sources */,
+				BAF685961B1E0055004811B7 /* Frameworks */,
+				BAF685971B1E0055004811B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GravityMaze;
+			productName = GravityMaze;
+			productReference = BAF685991B1E0055004811B7 /* GravityMaze.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAF685B61B1E0055004811B7 /* GravityMazeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAF685C41B1E0055004811B7 /* Build configuration list for PBXNativeTarget "GravityMazeTests" */;
+			buildPhases = (
+				BAF685B31B1E0055004811B7 /* Sources */,
+				BAF685B41B1E0055004811B7 /* Frameworks */,
+				BAF685B51B1E0055004811B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAF685B91B1E0055004811B7 /* PBXTargetDependency */,
+			);
+			name = GravityMazeTests;
+			productName = GravityMazeTests;
+			productReference = BAF685B71B1E0055004811B7 /* GravityMazeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAF685911B1E0055004811B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Henry Wei";
+				TargetAttributes = {
+					BAF685981B1E0055004811B7 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					BAF685B61B1E0055004811B7 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = BAF685981B1E0055004811B7;
+					};
+				};
+			};
+			buildConfigurationList = BAF685941B1E0055004811B7 /* Build configuration list for PBXProject "GravityMaze" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAF685901B1E0055004811B7;
+			productRefGroup = BAF6859A1B1E0055004811B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAF685981B1E0055004811B7 /* GravityMaze */,
+				BAF685B61B1E0055004811B7 /* GravityMazeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAF685971B1E0055004811B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF685B21B1E0055004811B7 /* LaunchScreen.xib in Resources */,
+				BAF685AF1B1E0055004811B7 /* Images.xcassets in Resources */,
+				BAF685A71B1E0055004811B7 /* GameScene.sks in Resources */,
+				BAF685AD1B1E0055004811B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF685B51B1E0055004811B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAF685951B1E0055004811B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF685AA1B1E0055004811B7 /* GameViewController.m in Sources */,
+				BAF685A21B1E0055004811B7 /* AppDelegate.m in Sources */,
+				BAF685A51B1E0055004811B7 /* GameScene.m in Sources */,
+				BAF6859F1B1E0055004811B7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF685B31B1E0055004811B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF685BE1B1E0055004811B7 /* GravityMazeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAF685B91B1E0055004811B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAF685981B1E0055004811B7 /* GravityMaze */;
+			targetProxy = BAF685B81B1E0055004811B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAF685AB1B1E0055004811B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAF685AC1B1E0055004811B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAF685B01B1E0055004811B7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAF685B11B1E0055004811B7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAF685BF1B1E0055004811B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAF685C01B1E0055004811B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAF685C21B1E0055004811B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GravityMaze/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BAF685C31B1E0055004811B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GravityMaze/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BAF685C51B1E0055004811B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GravityMazeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GravityMaze.app/GravityMaze";
+			};
+			name = Debug;
+		};
+		BAF685C61B1E0055004811B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GravityMazeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GravityMaze.app/GravityMaze";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAF685941B1E0055004811B7 /* Build configuration list for PBXProject "GravityMaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAF685BF1B1E0055004811B7 /* Debug */,
+				BAF685C01B1E0055004811B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAF685C11B1E0055004811B7 /* Build configuration list for PBXNativeTarget "GravityMaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAF685C21B1E0055004811B7 /* Debug */,
+				BAF685C31B1E0055004811B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BAF685C41B1E0055004811B7 /* Build configuration list for PBXNativeTarget "GravityMazeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAF685C51B1E0055004811B7 /* Debug */,
+				BAF685C61B1E0055004811B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAF685911B1E0055004811B7 /* Project object */;
+}
