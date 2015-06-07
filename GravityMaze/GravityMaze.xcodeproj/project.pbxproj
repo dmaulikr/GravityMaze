@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BAB3E8DC1B2316960049BC9D /* BRWCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB3E8DB1B2316960049BC9D /* BRWCommon.m */; };
 		BADF21181B20A1B000E8DAF7 /* StartScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BADF21171B20A1B000E8DAF7 /* StartScene.m */; };
 		BAF6859F1B1E0055004811B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF6859E1B1E0055004811B7 /* main.m */; };
 		BAF685A21B1E0055004811B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF685A11B1E0055004811B7 /* AppDelegate.m */; };
@@ -30,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BAB3E8DA1B2316960049BC9D /* BRWCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRWCommon.h; sourceTree = "<group>"; };
+		BAB3E8DB1B2316960049BC9D /* BRWCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRWCommon.m; sourceTree = "<group>"; };
 		BADF21161B20A1B000E8DAF7 /* StartScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartScene.h; sourceTree = "<group>"; };
 		BADF21171B20A1B000E8DAF7 /* StartScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartScene.m; sourceTree = "<group>"; };
 		BAF685991B1E0055004811B7 /* GravityMaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GravityMaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +71,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BAB3E8D91B2316480049BC9D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BAB3E8DA1B2316960049BC9D /* BRWCommon.h */,
+				BAB3E8DB1B2316960049BC9D /* BRWCommon.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
 		BADF21191B20A70200E8DAF7 /* StartScene */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +110,7 @@
 		BAF6859B1B1E0055004811B7 /* GravityMaze */ = {
 			isa = PBXGroup;
 			children = (
+				BAB3E8D91B2316480049BC9D /* Common */,
 				BADF21191B20A70200E8DAF7 /* StartScene */,
 				BAF685A01B1E0055004811B7 /* AppDelegate.h */,
 				BAF685A11B1E0055004811B7 /* AppDelegate.m */,
@@ -243,6 +256,7 @@
 			files = (
 				BAF685AA1B1E0055004811B7 /* GameViewController.m in Sources */,
 				BAF685A21B1E0055004811B7 /* AppDelegate.m in Sources */,
+				BAB3E8DC1B2316960049BC9D /* BRWCommon.m in Sources */,
 				BAF685A51B1E0055004811B7 /* GameScene.m in Sources */,
 				BAF6859F1B1E0055004811B7 /* main.m in Sources */,
 				BADF21181B20A1B000E8DAF7 /* StartScene.m in Sources */,

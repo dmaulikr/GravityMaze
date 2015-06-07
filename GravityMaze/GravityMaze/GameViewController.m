@@ -35,16 +35,19 @@
 {
     [super viewDidLoad];
 
+    NSLog(@"height: %f", self.view.bounds.size.height);
+    NSLog(@"width: %f", self.view.bounds.size.width);
+    
     // Configure the view.
     SKView * skView = (SKView *)self.view;
-    skView.showsFPS = YES;
-    skView.showsNodeCount = YES;
+    //skView.showsFPS = YES;
+    //skView.showsNodeCount = YES;
     /* Sprite Kit applies additional optimizations to improve rendering performance */
     skView.ignoresSiblingOrder = YES;
     
     // Create and configure the scene.
     //GameScene *scene = [GameScene unarchiveFromFile:@"GameScene"];
-    StartScene * startscene = [[StartScene alloc] initWithSize:skView.bounds.size];
+    StartScene * startscene = [StartScene sceneWithSize:skView.bounds.size];
     startscene.scaleMode = SKSceneScaleModeAspectFill;
     
     // Present the scene.
@@ -53,16 +56,17 @@
 
 - (BOOL)shouldAutorotate
 {
-    return YES;
+    return NO;
 }
 
 - (NSUInteger)supportedInterfaceOrientations
 {
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        return UIInterfaceOrientationMaskAllButUpsideDown;
-    } else {
-        return UIInterfaceOrientationMaskAll;
-    }
+//    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+//        return UIInterfaceOrientationMaskAllButUpsideDown;
+//    } else {
+//        return UIInterfaceOrientationMaskAll;
+//    }
+    return UIInterfaceOrientationMaskPortrait;
 }
 
 - (void)didReceiveMemoryWarning
